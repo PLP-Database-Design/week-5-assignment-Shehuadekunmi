@@ -1,0 +1,15 @@
+<table>
+    <thead>
+        <tr>
+            <th>Specialty</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <% results.forEach(row => { %>
+            <tr>
+                <th> <%= row.provider_specialty %></th>
+            </tr>
+      <%  }); %>
+    </tbody>
+</table>
